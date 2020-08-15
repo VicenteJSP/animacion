@@ -13,6 +13,7 @@ export class TypedjsComponent implements OnInit {
   ngOnInit(): void {
     let typed = new Typed('.element', {
       strings: [
+        '>',
         '>Próximamente ...',
         '>VicenteJSP'
       ],
@@ -20,7 +21,6 @@ export class TypedjsComponent implements OnInit {
       backSpeed: 0,
       cursorChar: '✍',
       shuffle: true,
-      smartBackspace: false,
       loop: true
     });
 

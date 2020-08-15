@@ -1,0 +1,50 @@
+.element{
+  font-size: 2em;
+  padding: .2em;
+  border-radius: .6em;
+}
+
+.console{
+  font-family: monospace;
+  color: white;
+  height: 20%;
+  max-width: 85%;
+  width: 400px;
+}
+
+.title-bar{
+  font-size: 14px;
+  padding-right: 25%;
+}
+
+.print-data{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-bottom: 5px solid #334752;
+  border-left: 2.5px solid #334752;
+  border-right: 2.5px solid #334752;
+  background-color: black;
+  border-radius: 0 0 4px 4px;
+}
+
+.bar{
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  text-align: right;
+  background-color:#334752;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+
+i {
+  font-size: 10px;
+  margin-left: 4px;
+  text-align: center;
+  background-color: cadetblue;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  padding: .3em;
+}
